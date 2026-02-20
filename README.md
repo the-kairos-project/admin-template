@@ -11,7 +11,6 @@ This template is designed to be cloned and customized for your organization. Def
 ## Prerequisites
 
 - [Bun](https://bun.sh/) (v1.1+)
-- [Node.js](https://nodejs.org/) 20+
 - A [Convex](https://convex.dev/) account (free tier available)
 
 ## Quick Start
