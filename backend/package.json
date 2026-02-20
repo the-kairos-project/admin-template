@@ -1,0 +1,16 @@
+{
+  "name": "@template/convex",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./index.ts",
+  "exports": {
+    ".": "./index.ts",
+    "./table-registry": "./lib/registry.ts",
+    "./config": "./convex/config.ts"
+  },
+  "scripts": {
+    "dev": "convex dev",
+    "check-types": "tsc --noEmit"
+  }
+}

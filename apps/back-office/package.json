@@ -1,0 +1,37 @@
+{
+  "name": "@template/back-office",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "check-types": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@kairos/admin-schema": "jsr:@kairos/admin-schema@^0.1.0",
+    "@kairos/admin-ui": "jsr:@kairos/admin-ui@^0.1.0",
+    "@kairos/ui": "jsr:@kairos/ui@^0.1.0",
+    "@template/convex": "workspace:*",
+    "@tanstack/react-router": "^1.141.1",
+    "@tanstack/router-plugin": "^1.141.1",
+    "ag-grid-community": "^35.0.1",
+    "ag-grid-react": "^35.0.1",
+    "convex": "catalog:",
+    "lucide-react": "^0.563.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hotkeys-hook": "^5.2.4",
+    "sonner": "^2.0.7",
+    "zustand": "^5.0.11"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.4.1",
+    "tailwindcss": "^4.0.15",
+    "@tailwindcss/vite": "^4.0.15",
+    "typescript": "catalog:",
+    "vite": "^6.3.0"
+  }
+}

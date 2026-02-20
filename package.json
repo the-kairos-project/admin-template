@@ -1,0 +1,21 @@
+{
+  "name": "admin-template",
+  "private": true,
+  "workspaces": {
+    "catalog": {
+      "convex": "^1.31.2",
+      "typescript": "^5"
+    },
+    "packages": ["apps/*", "backend"]
+  },
+  "scripts": {
+    "dev": "turbo dev --continue",
+    "dev:backoffice": "turbo dev -F @template/back-office -F @template/convex",
+    "dev:forms": "turbo dev -F @template/forms -F @template/convex",
+    "build": "turbo build",
+    "check-types": "turbo check-types"
+  },
+  "devDependencies": {
+    "turbo": "^2.8.0"
+  }
+}
